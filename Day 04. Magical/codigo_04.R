@@ -35,7 +35,9 @@ houses = c("Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw") %>%
 datos = lapply(1:7, function(y){
   # Extraccion de resultados del patrón
   casas_mencionadas_por_cap = lapply(1:no_caps_por_libro[y], function(x){
-    str_extract_all(str_to_lower(hp_texts[[y]][x]), pattern = or1(houses)) %>% unlist()
+    str_extract_all(str_to_lower(hp_texts[[y]][x]),
+                    pattern = or1(houses)) %>%
+      unlist()
   }) %>% unlist()
   # Lo metemos en una tabla
   tibble(libro = y,
@@ -61,12 +63,6 @@ datos_bolita = lapply(1:nrow(datos_contados), function(x){
 
 datos_bolita <- do.call(rbind, datos_bolita)
 
-# Colores ----
-color_bg = "#e1d9c4"
-color_font = "#5b1012"
-color_panel = "#6c523d"
-font_panel = "Poppins"
-
 # Generamos la gráfica de barras de frecuencia ----
 datos_contados %>%
   ggplot(aes(x = casas, y = n, fill = casas)) +
@@ -83,7 +79,6 @@ datos_contados %>%
 ggsave("grafica_barras.png",
        device = "png",
        bg = "transparent")
-
 
 # Gráfica de bolitas ----
 plt = datos_bolita %>%
@@ -129,7 +124,7 @@ ggsave("grafica_bolita.png",
 
 # Versión interactiva ----
 plotly::ggplotly(plt) %>%
-  layout(plot_bgcolor='rgb(254, 247, 234)')
+  layout(plot_bgcolor='rgb(255, 254, 238)')
 
 # Los logos se añadieron en post-producción con keynote, pero no dudo que haya una forma de hacerlo con código.
 
