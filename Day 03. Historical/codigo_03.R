@@ -144,5 +144,7 @@ hm = bd %>%
 hm
 
 ggsave("lluvia_tacubaya.png",
-       device = "png")
+       device = "png",
+       width = 15,
+       height = 10)
 
