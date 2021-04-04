@@ -28,3 +28,13 @@ Gráfica de lluvia acumulada mensual desde 1877 a 2018.
 
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2003.%20Historical/lluvia_tacubaya.png)
 
+## Día 04. `magical`. 
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 04. Comparisons - Magical. <br><br>Menciones a cada una de las 4 casas de <a href="https://twitter.com/hashtag/Hogwarts?src=hash&amp;ref_src=twsrc%5Etfw">#Hogwarts</a> en los 7 libros de <a href="https://twitter.com/hashtag/harrypotter?src=hash&amp;ref_src=twsrc%5Etfw">#harrypotter</a> . Cada bolita es una mención. <br><br>Código: <a href="https://t.co/2rhDdBzB0g">https://t.co/2rhDdBzB0g</a> <a href="https://t.co/UfAvJqwuG1">pic.twitter.com/UfAvJqwuG1</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1378772757198987265?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote> 
+
+Gráfica de menciones de cada una de las cuatro casas de Hogwarts en los 7 libros de Harry Potter. 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2004.%20Magical/grafica_final.png)
+
+
+
