@@ -35,7 +35,7 @@ Gráfica de menciones de cada una de las cuatro casas de Hogwarts en los 7 libro
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 04. Comparisons - Magical. <br><br>Menciones a cada una de las 4 casas de <a href="https://twitter.com/hashtag/Hogwarts?src=hash&amp;ref_src=twsrc%5Etfw">#Hogwarts</a> en los 7 libros de <a href="https://twitter.com/hashtag/harrypotter?src=hash&amp;ref_src=twsrc%5Etfw">#harrypotter</a> . Cada bolita es una mención. <br><br>Código: <a href="https://t.co/2rhDdBzB0g">https://t.co/2rhDdBzB0g</a> <a href="https://t.co/UfAvJqwuG1">pic.twitter.com/UfAvJqwuG1</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1378772757198987265?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote> 
 
 
-![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2004.%20Magical/grafica_final.png)
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2004.%20Magical/Captura%20de%20Pantalla%202021-04-04%20a%20la(s)%2013.06.28.png)
 
 ## Día 05 - `slope`. 
 
