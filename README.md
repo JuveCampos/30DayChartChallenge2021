@@ -30,11 +30,20 @@ Gráfica de lluvia acumulada mensual desde 1877 a 2018.
 
 ## Día 04. `magical`. 
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 04. Comparisons - Magical. <br><br>Menciones a cada una de las 4 casas de <a href="https://twitter.com/hashtag/Hogwarts?src=hash&amp;ref_src=twsrc%5Etfw">#Hogwarts</a> en los 7 libros de <a href="https://twitter.com/hashtag/harrypotter?src=hash&amp;ref_src=twsrc%5Etfw">#harrypotter</a> . Cada bolita es una mención. <br><br>Código: <a href="https://t.co/2rhDdBzB0g">https://t.co/2rhDdBzB0g</a> <a href="https://t.co/UfAvJqwuG1">pic.twitter.com/UfAvJqwuG1</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1378772757198987265?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote> 
-
 Gráfica de menciones de cada una de las cuatro casas de Hogwarts en los 7 libros de Harry Potter. 
 
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 04. Comparisons - Magical. <br><br>Menciones a cada una de las 4 casas de <a href="https://twitter.com/hashtag/Hogwarts?src=hash&amp;ref_src=twsrc%5Etfw">#Hogwarts</a> en los 7 libros de <a href="https://twitter.com/hashtag/harrypotter?src=hash&amp;ref_src=twsrc%5Etfw">#harrypotter</a> . Cada bolita es una mención. <br><br>Código: <a href="https://t.co/2rhDdBzB0g">https://t.co/2rhDdBzB0g</a> <a href="https://t.co/UfAvJqwuG1">pic.twitter.com/UfAvJqwuG1</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1378772757198987265?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote> 
+
+
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2004.%20Magical/grafica_final.png)
+
+## Día 05 - `slope`. 
+
+Gráfica que muestra el cambio que hay en la composición de la cámara de diputados de una legislatura (2015) a otra (2018).
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 5. Comparisons - Slope. <br><br>Comparación del número de diputados federales de las legislaturas que entraron en 2015 y en 2018, a través de una gráfica de pendientes, que hacen más evidente el cambio de un año a otro. <br><br>Código: <a href="https://t.co/aP5wW52nkM">https://t.co/aP5wW52nkM</a> <a href="https://t.co/IPpeR2MWk7">pic.twitter.com/IPpeR2MWk7</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1379297489677787136?ref_src=twsrc%5Etfw">April 6, 2021</a></blockquote>
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2005.%20Slope/grafica_05.png)
 
 
 
