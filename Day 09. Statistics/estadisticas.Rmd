@@ -1,0 +1,178 @@
+---
+title: "Bootstrap Rayshader"
+author: "Juvenal Campos"
+date: "1/2/2020"
+output: html_document
+---
+
+<style>
+ p {text-align: justify;}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Generación de un gráfico en 3D mediante la librería `Rayshader`.
+
+En el presente código se repasa la lógica detrás del proceso de análisis mediante bootstrap y el graficado de coeficientes en 3D. 
+
+# Proceso de generación de la información. 
+
+Para la creación de la base de Datos, descargaremos las bases de la librería `HistData`, dentro de la cual se ubica la base de `GaltonFamilies`, la cual es una medición de las alturas de padres e hijos, como dice a continuación: 
+
+
+_This data set lists the individual observations for 934 children in 205 families on which Galton (1886) based his cross-tabulation._
+
+_In addition to the question of the relation between heights of parents and their offspring, for which this data is mainly famous, Galton had another purpose which the data in this form allows to address: Does marriage selection indicate a relationship between the heights of husbands and wives, a topic he called assortative mating? Keen [p. 297-298](2010) provides a brief discussion of this topic._
+
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+
+# Removemos objetos previos
+rm(list = ls(all = TRUE)) #clear workspace
+
+# Librerias
+library(HistData)
+
+# Leemos los datos. 
+data("GaltonFamilies")
+
+# Almacenamos la base en un objeto de nombre _d_. 
+d <- GaltonFamilies
+
+# Generamos una var. dummy para cuando el individuo 
+# es masculino o femenino
+d$H <- 1 # Caso Hombres
+d$H[d$gender == "female"] <- 0 # Caso Mujeres
+
+# GENERAMOS UNA FUNCION PARA HACER BOOTSTRAP #
+my_boots <- function(){
+    # Sampleo
+    samp <- sample(1:nrow(d), size = nrow(d), replace = TRUE)
+    # Estimamos los parametros del modelo...
+    m <- glm(childHeight ~ H, data = d[samp,])
+    # Quedandonos con los coeficientes de m, y el sigma
+    c(coef(m), sigma = sigma(m)) 
+}
+
+# Guardamos las replicaciones de bootstrap de los parametros cada vez que hago 
+# una replicación de bootstrap
+boots <- replicate(50000, my_boots())
+boots <- t(boots)
+head(boots)
+
+```
+
+A la base de coeficientes resultante del Bootstrap, le sacamos estadísticas descriptivas. 
+
+* Covarianza.
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# Covarianza de boots
+cov(boots)
+```
+
+* Varianza.
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# Varianza de boots
+sqrt(diag(cov(boots)))
+```
+
+* Desviación estándar del estimador $\alpha$ (alpha - intercepto).
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# Sacamos la desv est a la boots/alpha
+sd(boots[,1])
+```
+
+* Desviación estándar de $\beta$ (beta, de la dummy H).
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# Sacamos la desv est a la boots/beta
+sd(boots[,2])
+```
+
+# Coeficientes promedio. 
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# Sacamos los coeficientes de la muestra completa
+colMeans(boots)
+```
+
+__Llego el momento del retrato hablado.__
+
+Vemos la distribución del _alpha_ y _beta_.
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# Distribución boostrap de alpha
+plot(density(boots[,1], adjust = 4))
+
+# Distribución bootstrap de beta
+plot(density(boots[,2], adjust = 4))
+```
+
+La distribucion es multivariada porque las variables covarian conjuntamente. (Nota de la clase)
+
+### Gráfica 2D.
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+plot(boots[,1:2])
+```
+
+## Gráfica en 3D de líneas. 
+
+En la gráfica se muestra la relación entre los coeficientes obtenida en el proceso de `bootstrap`.
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+
+# GRAFICA EN 3D DE LINEAS.
+library(hexbin)
+
+# Otro plot de esas variables, pero con otra funcion 
+bin <- hexbin(boots[,1:2], xbins = 50)
+plot(bin)
+
+library(MASS)
+den3d <- kde2d(boots[,1], boots[,2])
+persp(den3d, box = FALSE)
+
+```
+
+## Grafica en 3D Rayshader
+
+```{r, message=FALSE, cache=FALSE, warning=FALSE}
+# GRAFICA EN 3D - RAYSHADER #
+
+# Libreria para hacer renders en 3D
+options(rgl.useNULL = FALSE)
+library(rgl)
+library(rayshader) 
+
+# Libreria para hacer graficas y usar el simbolo %>%
+library(tidyverse)
+library(vapoRwave)
+
+# Elaboramos la gráfica de hexagonos.
+ggbins <- ggplot(boots %>% as.data.frame()) +
+  geom_hex(aes(x = boots[,1], y = boots[,2])) +
+  new_retro()
+
+ggbins
+
+# Convertimos una grafica ggplot en 2D a una en 3D
+plot_gg(ggbins,            # Objeto ggplot
+        width = 5,         # Ancho del ggplot
+        height = 5,        # Alto del ggplot
+        multicore = TRUE,  # Arg. para utilizar todos los nucleos de la compu en el procesamiento
+        scale = 250,       # Multiplicador para escala vertical del 3D
+        zoom = 0.7,        # Zoom de la ventana
+        theta = 10,        # Angulo horizontal de presentacion 
+        phi = 30,          # Angulo vertical de presentacion
+        windowsize = c(800, 800))
+render_snapshot(clear = TRUE)
+
+```
+

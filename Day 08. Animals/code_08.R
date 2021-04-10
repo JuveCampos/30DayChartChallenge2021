@@ -158,7 +158,8 @@ tabla$Name
 mis_vecinos = c("Kid Cat",
   "Carmen", "Ankha",
   "Lionel", "Paolo", "Portia", "Patty",
-  "Eugene", "Aurora", "Julia")
+  "Eugene", "Aurora", "Julia",
+  "Whitney", "Frita", "Wolfgang", "Cyrano")
 
 
 mis_vecinos_df = tabla %>%
@@ -166,7 +167,7 @@ mis_vecinos_df = tabla %>%
 
 for(i in 1:10){
   curl::curl_download(mis_vecinos_df$Image[i],
-                      destfile = str_c(mis_vecinos_df$Name[i], ".png"))
+                      destfile = str_c("fotos_animales/", mis_vecinos_df$Name[i], ".png"))
 
 }
 
