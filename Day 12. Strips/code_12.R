@@ -1,6 +1,8 @@
 ##################################################
 # EXTRACCIÓN DE TWEETS DE GOBERNADORES ESTATALES #
 ##################################################
+
+# En español para que las fechas salgan en este idioma ----
 Sys.setlocale("LC_TIME", "es_ES.UTF-8")
 
 # Librerias ----
@@ -49,7 +51,6 @@ twTodosGobernadores <- lapply(c(1:32), function(x){
 # Analizamos Datos ----
 lapply(twTodosGobernadores, nrow)
 
-
 # Quitamos los vacios
 twTodosGobernadores2 <- twTodosGobernadores[-c(which(unlist(lapply(twTodosGobernadores, length)) != 4))]
 
@@ -70,6 +71,7 @@ names(bd)[5] <- "screen_name"
 tweets <- bd %>%
   right_join(tweets)
 
+openxlsx::write.xlsx(tweets, "tweetsGobernadores.xlsx")
 
 min(tweets$created_at)
 max(tweets$created_at)
