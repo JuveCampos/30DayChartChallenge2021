@@ -45,5 +45,57 @@ Gráfica que muestra el cambio que hay en la composición de la cámara de diput
 
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2005.%20Slope/grafica_05.png)
 
+## Día 06 - `experimental`
+
+Gráfica experimental con cosas que tengo en la casa. 
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 6 - Comparaciones - Experimental. <br><br>Haciendo histogramas con materiales caseros. En este caso, visualizando la desproporcionada cantidad de sobrecitos de catsup que llegaron con un par de hotdogs del Costco. <br><br>En esta ocasión no incluyó el código 😜 <a href="https://t.co/g5KoHqrgx7">pic.twitter.com/g5KoHqrgx7</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1379604236292481033?ref_src=twsrc%5Etfw">April 7, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2006.%20Experimental/EyVWrHUVIAACQ0L.jpeg)
+
+
+## Día 07 - `physical`
+
+Físico: estadísticas físicas de Pokemon. 
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> - Physical Distribution. <br><br>Distribución de las estadísticas de ataque y defensa físicos de los primeros 151 <a href="https://twitter.com/hashtag/Pokemon?src=hash&amp;ref_src=twsrc%5Etfw">#Pokemon</a>. <br><br>Código: <a href="https://t.co/aZAOGatmg1">https://t.co/aZAOGatmg1</a> <a href="https://t.co/SwB2QD0A67">pic.twitter.com/SwB2QD0A67</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1379986659547082754?ref_src=twsrc%5Etfw">April 8, 2021</a></blockquote>
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2007.%20Physical/imagen_final.png)
+
+
+## Día 08 - `animals`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 08 - Dist - Animales.<br><br>Gráfica del total de animales, por especie y sexo, que pueden habitar tu isla en <a href="https://twitter.com/hashtag/AnimalCrossingNewHorizons?src=hash&amp;ref_src=twsrc%5Etfw">#AnimalCrossingNewHorizons</a> (el mejor videojuego de pandemia, por cierto :P )<br><br>Destaco a los que han vivido en la mia. <br><br>Código: <a href="https://t.co/zKJRSVIXid">https://t.co/zKJRSVIXid</a> <a href="https://t.co/BTjqo7xkbS">pic.twitter.com/BTjqo7xkbS</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1380348841182957573?ref_src=twsrc%5Etfw">April 9, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2008.%20Animals/foto_final.png)
+
+## Día 09 - `statistics`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 09 - Distribuciones, Estadística. <br><br>Gráfica de distribución de coeficientes Bootstrap de una regresión hecha con datos de la librería {histdata} (ver detalles en la descripción de la gráfica).<br><br>Código: <a href="https://t.co/gD6OHKgvXa">https://t.co/gD6OHKgvXa</a> <a href="https://t.co/RBa1ZUKtpW">pic.twitter.com/RBa1ZUKtpW</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1380732187884937216?ref_src=twsrc%5Etfw">April 10, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2009.%20Statistics/img_3d.png)
+
+## Día 10 - `abstract`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 10: Distribuciones - Abstract<br><br>Pequeño análisis de texto de los abstracts de los papers publicados en Econométrica. 2010 - 2021. <br><br>Código: <a href="https://t.co/y5FDvRTC9b">https://t.co/y5FDvRTC9b</a> <a href="https://t.co/LtGWBkW2Xs">pic.twitter.com/LtGWBkW2Xs</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1380995477265522690?ref_src=twsrc%5Etfw">April 10, 2021</a></blockquote>
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2010.%20Abstract/imagen_final_final.png)
+
+## Día 11 - `circular`
+
+_Esta me la salté ggg_
+
+## Día 12 - `strips`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 12: Strips (tiras). <br><br>Uso de twitter por parte de los gobernadores mexicanos en los últimos 7 días. <br><br>Código: <a href="https://t.co/64NskebD5E">https://t.co/64NskebD5E</a> <a href="https://t.co/EYG50COfFa">pic.twitter.com/EYG50COfFa</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1381851880473600010?ref_src=twsrc%5Etfw">April 13, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2012.%20Strips/grafica_tiras.png)
+
+## Día 13 - `correlation`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 13: Relaciones - Correlación.<br><br>Relación entre precio y kilometraje de 4 marcas de automóviles vendidas en México a través de Mercado Libre. <br><br>El análisis tiene sus detalles, pero era muy tarde para cambiar de datos :P <br><br>Código: <a href="https://t.co/HK2MWaxiqn">https://t.co/HK2MWaxiqn</a> <a href="https://t.co/q08Ah1vG9P">pic.twitter.com/q08Ah1vG9P</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1382155261402501125?ref_src=twsrc%5Etfw">April 14, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2013.%20Correlation/coches.png)
+
 
 
