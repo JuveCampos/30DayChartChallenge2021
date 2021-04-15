@@ -17,6 +17,8 @@ urls = str_c("https://autos.mercadolibre.com.mx/_Desde_",
 url = urls[1]
 
 get_data = function(url){
+
+
     precios = read_html(url) %>%
       html_nodes(".andes-card") %>%
       html_nodes(".ui-search-result__content-wrapper") %>%
@@ -36,8 +38,8 @@ get_data = function(url){
 
 
     carro = tibble(carro = read_html(url) %>%
-                     html_nodes(".andes-card") %>%
-                     html_nodes(".ui-search-result__content-wrapper") %>%
+                    html_nodes(".andes-card") %>%
+                    html_nodes(".ui-search-result__content-wrapper") %>%
                      html_nodes("h2") %>%
                      html_text()) %>%
       mutate(marca = str_extract(carro, pattern = "\\w+"))
