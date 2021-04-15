@@ -91,7 +91,7 @@ _Esta me la salté ggg_
 
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2012.%20Strips/grafica_tiras.png)
 
-## Día 06 - `experimental`
+## Día 13 - `correlation`
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 13: Relaciones - Correlación.<br><br>Relación entre precio y kilometraje de 4 marcas de automóviles vendidas en México a través de Mercado Libre. <br><br>El análisis tiene sus detalles, pero era muy tarde para cambiar de datos :P <br><br>Código: <a href="https://t.co/HK2MWaxiqn">https://t.co/HK2MWaxiqn</a> <a href="https://t.co/q08Ah1vG9P">pic.twitter.com/q08Ah1vG9P</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1382155261402501125?ref_src=twsrc%5Etfw">April 14, 2021</a></blockquote> 
 
