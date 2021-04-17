@@ -97,5 +97,18 @@ _Esta me la salté ggg_
 
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2013.%20Correlation/coches.png)
 
+## Dia 15 - `space`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 14 - Relationship + Space<br><br>Relaciones (inventadas) entre estrellas. <br>Mapas de constelaciones. <br><br>Inspirado en el artículo de blog de <a href="https://twitter.com/Kim_Fitter?ref_src=twsrc%5Etfw">@Kim_Fitter</a><a href="https://t.co/w8zEUKcSsc">https://t.co/w8zEUKcSsc</a>…<br><br>Datos obtenidos de Github: ofrohn/d3-celestial<br><br>Código: <a href="https://t.co/ySTvqJMaqb">https://t.co/ySTvqJMaqb</a> <a href="https://t.co/ssyB7IAyxb">pic.twitter.com/ssyB7IAyxb</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1382536899315724290?ref_src=twsrc%5Etfw">April 15, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2014.%20Space/constelaciones/plot_Ursa%20Minor.png)
+
+![](https://github.com/JuveCampos/30DayChartChallenge2021/raw/main/Day%2014.%20Space/const.gif)
+
+## Dia 15 - `bivariate`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 15 - Bivariado. <br><br>Relación entre total recaudado y años de antigüedad de las franquicias de entretenimiento de mayor recaudación. <br><br>Se destacan casos de interés. <br><br>Código: <a href="https://t.co/K0VDm4DleY">https://t.co/K0VDm4DleY</a> <a href="https://t.co/9UxDQU3iT7">pic.twitter.com/9UxDQU3iT7</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1382934103708770306?ref_src=twsrc%5Etfw">April 16, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2015.%20Bivariate/grafica_15_final.png)
 
 
