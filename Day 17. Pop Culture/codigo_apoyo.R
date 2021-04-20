@@ -144,11 +144,10 @@ combn(x = c("a","b","c"),
 
 ?combn
 
-rr = combn(c("Sabo",
-             "Monkey D. Dragon",
-             "Emporio Ivankov",
-             "Koala",
-             "Bartholomew Kuma"), 2) %>%
+rr = combn(c("Pekoms",
+             "Pedro",
+             "Inuarashi",
+             "Nekomamushi"), 2) %>%
   t() %>%
   as_tibble()
 
@@ -156,16 +155,10 @@ openxlsx::write.xlsx(rr, "rr.xlsx")
 
 mugis  = tibble::tribble(
   ~Nakamas,
-     "Monkey D. Luffy",
-       "Roronoa Zoro",
-              "Vinsmoke Sanji",
-  "Tony Tony Chopper",
-               "Nami",
-         "Nico Robin",
-              "Usopp",
-              "Brook",
-             "Franky",
-              "Jinbe"
+  "Pekoms",
+  "Pedro",
+  "Inuarashi",
+  "Nekomamushi"
   )
 
 mugis$Nakamas
