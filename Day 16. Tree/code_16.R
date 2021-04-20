@@ -140,4 +140,3 @@ plt = rpart.plot(modelo_2,
 
 # Nunca encontré como modificar los numeros, asi que lo edité en Keynote -__-
 
-
