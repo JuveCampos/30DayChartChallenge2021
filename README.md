@@ -83,7 +83,9 @@ Físico: estadísticas físicas de Pokemon.
 
 ## Día 11 - `circular`
 
-_Esta me la salté ggg_
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 11 (atrasado). Circular.<br><br>Distribución circular de 10 paletas de colores generadas a partir de los colores de una imagen extraída de internet. <br><br>Código: <a href="https://t.co/6bScRflRy1">https://t.co/6bScRflRy1</a> <a href="https://t.co/0Yn62Hbzel">pic.twitter.com/0Yn62Hbzel</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1388365077233946626?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2011.%20Circular/img_final.png)
 
 ## Día 12 - `strips`
 
@@ -97,11 +99,9 @@ _Esta me la salté ggg_
 
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2013.%20Correlation/coches.png)
 
-## Dia 15 - `space`
+## Dia 14 - `space`
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 14 - Relationship + Space<br><br>Relaciones (inventadas) entre estrellas. <br>Mapas de constelaciones. <br><br>Inspirado en el artículo de blog de <a href="https://twitter.com/Kim_Fitter?ref_src=twsrc%5Etfw">@Kim_Fitter</a><a href="https://t.co/w8zEUKcSsc">https://t.co/w8zEUKcSsc</a>…<br><br>Datos obtenidos de Github: ofrohn/d3-celestial<br><br>Código: <a href="https://t.co/ySTvqJMaqb">https://t.co/ySTvqJMaqb</a> <a href="https://t.co/ssyB7IAyxb">pic.twitter.com/ssyB7IAyxb</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1382536899315724290?ref_src=twsrc%5Etfw">April 15, 2021</a></blockquote> 
-
-![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2014.%20Space/constelaciones/plot_Ursa%20Minor.png)
 
 ![](https://github.com/JuveCampos/30DayChartChallenge2021/raw/main/Day%2014.%20Space/const.gif)
 
@@ -110,5 +110,88 @@ _Esta me la salté ggg_
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 15 - Bivariado. <br><br>Relación entre total recaudado y años de antigüedad de las franquicias de entretenimiento de mayor recaudación. <br><br>Se destacan casos de interés. <br><br>Código: <a href="https://t.co/K0VDm4DleY">https://t.co/K0VDm4DleY</a> <a href="https://t.co/9UxDQU3iT7">pic.twitter.com/9UxDQU3iT7</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1382934103708770306?ref_src=twsrc%5Etfw">April 16, 2021</a></blockquote> 
 
 ![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2015.%20Bivariate/grafica_15_final.png)
+
+## Día 16 + Día 17: `Connections + Pop-Culture`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Días 17 + 18: <br>Relationship + Pop Culture + Connections<br><br>Gráfica de relaciones entre los personajes principales, secundarios y organizaciones de la serie <a href="https://twitter.com/hashtag/ONEPIECE?src=hash&amp;ref_src=twsrc%5Etfw">#ONEPIECE</a><br><br>Código: <a href="https://t.co/ceqyQFONOx">https://t.co/ceqyQFONOx</a><br><br>Versión Interactiva: <a href="https://t.co/Aa77qojgys">https://t.co/Aa77qojgys</a> <a href="https://t.co/8M3FkrSrYv">pic.twitter.com/8M3FkrSrYv</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1384361704469958656?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2017.%20Pop%20Culture/Grafica%20Final.png)
+
+**Versión Interactiva: ** https://juvecampos.github.io/Repositorio-de-Mapas-y-Visualizaciones/mapas/OPnetworkD3.html
+
+## Dïa 18 - `Global Change`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 18 - Global Change. <br><br>Replicando la gráfica de Gender ratios for mean years of schooling, 1870 to 2010 de <a href="https://twitter.com/OurWorldInData?ref_src=twsrc%5Etfw">@OurWorldInData</a> en ggplot.<br><br>Gráfica original disponible en <a href="https://t.co/uz3KmNU2yY">https://t.co/uz3KmNU2yY</a><br><br>Código: <a href="https://t.co/R6iu3xCRuD">https://t.co/R6iu3xCRuD</a> <a href="https://t.co/JLoTDtoP8Y">pic.twitter.com/JLoTDtoP8Y</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1384694959308218369?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2019.%20Global%20Change/img_final.pmg.png)
+
+
+## Día 19 - `Upwards`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 19 (atrasado) TS + Upwards. <br><br>Casos de SIDA diagnosticados y reportados por año en MX. <br><br>Datos: <a href="https://t.co/1tio4lPKPT">https://t.co/1tio4lPKPT</a><br><br>Código: <a href="https://t.co/kyypdw3H8Q">https://t.co/kyypdw3H8Q</a> <a href="https://t.co/e2jjDyLDP8">pic.twitter.com/e2jjDyLDP8</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1386316987085824005?ref_src=twsrc%5Etfw">April 25, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2020.%20Upwards/plot_19.png)
+
+
+## Día 21 - `Downwards`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 21. TS + Downwards. <br><br>Producción de café cereza en los 4 principales estados productores del país. <br><br>Código: <a href="https://t.co/f9PkRXNXs0">https://t.co/f9PkRXNXs0</a> <a href="https://t.co/mmsbjKCnFH">pic.twitter.com/mmsbjKCnFH</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1386317388006690817?ref_src=twsrc%5Etfw">April 25, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2021.%20Downwards/plot_20.png)
+
+
+## Día 22 - `Animation`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 22. Animación (atrasado). <br><br>Popularidad en búsquedas de google de los 5 equipos de soccer más googleados en México. <br><br>Uno de mis primeros intentos haciendo gráficas animadas.😅<br><br>Código: <a href="https://t.co/rgriHgjGwv">https://t.co/rgriHgjGwv</a> <a href="https://t.co/1t0oODFQ8O">pic.twitter.com/1t0oODFQ8O</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1388365665560629248?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2022.%20Animation/day21.gif)
+
+## Día 23 - `Tiles`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 23: TS + Tiles (atrasado)<br>Número de pasos registrados en mi Apple Watch desde 2016. <br>Se aprecian mis cambios de actividad física a partir del inicio de la pandemia 😰<br><br>Código: <a href="https://t.co/ii2XByaQmB">https://t.co/ii2XByaQmB</a> <a href="https://t.co/elL78jDj3A">pic.twitter.com/elL78jDj3A</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1387989992073539595?ref_src=twsrc%5Etfw">April 30, 2021</a></blockquote>
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2023.%20Tiles/grafica_final.png)
+
+
+## Día 24 - `Monochrome`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 24: TS + Monochrome (atrasado). <br><br>Vehículos de motor registrados por cada 1,000 habitantes, por estado (MX).<br><br>Código: <a href="https://t.co/ub5TWDLMmB">https://t.co/ub5TWDLMmB</a> <a href="https://t.co/alBwRs5dxr">pic.twitter.com/alBwRs5dxr</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1387990497122308096?ref_src=twsrc%5Etfw">April 30, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2024.%20Monochrome/plot_24.png)
+
+
+## Dia 25 - `Demographics`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 25: Unc. + Demographics. <br><br>Hice mi versión de la visualización de <a href="https://twitter.com/claudiodanielpc?ref_src=twsrc%5Etfw">@claudiodanielpc</a> sobre las pirámides de población para cada estado (y de paso aprender un poco de animación en R). <br><br>Código: <a href="https://t.co/lhB6TPV6mC">https://t.co/lhB6TPV6mC</a><br><br>Tweet orig: <a href="https://t.co/EOgV36Qvm4">https://t.co/EOgV36Qvm4</a> <a href="https://t.co/U6FStXbciL">pic.twitter.com/U6FStXbciL</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1387991396766949378?ref_src=twsrc%5Etfw">April 30, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2025.%20Demographic/day25_2.gif)
+
+
+## Día 26 - `Trend`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 26. Trends (atrasado). <br><br>Análisis de series de tiempo del PIB nacional (MX), extrayendo los diferentes componentes de la serie de tiempo. <br><br>Código tomado de una clase de <a href="https://twitter.com/richmassarol?ref_src=twsrc%5Etfw">@richmassarol</a> :P<br><br>Código: <a href="https://t.co/Hc4NMjtQpa">https://t.co/Hc4NMjtQpa</a> <a href="https://t.co/dk2jJhbtQI">pic.twitter.com/dk2jJhbtQI</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1388366672386568193?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2026.%20Trends/grafica_final.png)
+
+
+## Día 27 - `Educación`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 27. Educación. <br>Grado promedio de escolaridad de los 5 municipios con mayor y los 5 municipios con menor grado de escolaridad. <br><br>Datos de la encuesta intercensal 2015 de <a href="https://twitter.com/INEGI_INFORMA?ref_src=twsrc%5Etfw">@INEGI_INFORMA</a> <br><br>Código: <a href="https://t.co/7yPIwwmh2m">https://t.co/7yPIwwmh2m</a> <a href="https://t.co/NZFTiEJQmb">pic.twitter.com/NZFTiEJQmb</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1388367671901700096?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2027.%20Educational/plot_27.png)
+
+
+## Día 28 - `Future`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Dia 28. Futuro. <br><br>Con la palabra &quot;futuro&quot; solo se me ocurrió hacer una gráfica de <a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a> 😋<br><br>Precio de cierre y media móvil de 20 y 50 días. <br><br>Código: <a href="https://t.co/9JHsGLiCNj">https://t.co/9JHsGLiCNj</a> <a href="https://t.co/T4k0sLMK7u">pic.twitter.com/T4k0sLMK7u</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1388368316943716354?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote> 
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2028.%20Future/grafica_final.png)
+
+
+## Día 29 - `Deviations`
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/30DayChartChallenge?src=hash&amp;ref_src=twsrc%5Etfw">#30DayChartChallenge</a> Día 29. Desviaciones. <br><br>Tasa de mortalidad materna de los últimos años, con la desviación del último año con respecto a la tendencia histórica. <br><br>Código: <a href="https://t.co/ShxqT6FXs9">https://t.co/ShxqT6FXs9</a> <a href="https://t.co/apwGRUQbqI">pic.twitter.com/apwGRUQbqI</a></p>&mdash; Juvenal (@JuvenalCamposF) <a href="https://twitter.com/JuvenalCamposF/status/1388368865810391041?ref_src=twsrc%5Etfw">May 1, 2021</a></blockquote>
+
+![](https://raw.githubusercontent.com/JuveCampos/30DayChartChallenge2021/main/Day%2029.%20Deviations/grafica_final.png)
 
 
