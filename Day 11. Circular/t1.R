@@ -1,17 +1,27 @@
-
+# Librerias ----
 library(imager)
 library(tidyverse)
-# library(ggvoronoi)
 library(kableExtra)
 library(here)
 library(extrafont)
 library(ggtext)
 library(magick)
+library(TSP)
 
-# font: https://www.theleagueofmoveabletype.com/goudy-bookletter-1911
-# (requires installing and importing through the extrafont::import_font() function)
+# Función para ordenar colores
+orden_color = function(my_colours){
+  rgb <- col2rgb(my_colours)
+  tsp <- as.TSP(dist(t(rgb)))
+  sol <- solve_TSP(tsp, control = list(repetitions = 1e3))
+  ordered_cols <- my_colours[sol]
+  return(ordered_cols)
+}
 
-img <- load.image("/Users/juvenalcampos/Desktop/acnh.png")
+# Funcion para saber si el color es muy oscuro ----
+isDark <- function(colr) { (sum( col2rgb(colr) * c(299, 587,114))/1000 < 123) }
+# isDark("#362825")
+
+img <- load.image("acnh.png")
 
 img_df <- as.data.frame(img)
 
@@ -44,25 +54,54 @@ sort(img_sample$color)
 img_1 = img_sample %>%
   group_by(color) %>%
   count()
-# %>%
-#   arrange(-n) %>%
-#   head(n = 20)
+
+# Armado de los datos ----
+colores = tibble(cols = sample(img_1$color, 100),
+       grupo = rep(1:10, 10)) %>%
+  arrange(-grupo) %>%
+  group_by(grupo) %>%
+  mutate(cols = orden_color(cols)) %>%
+  ungroup() %>%
+  mutate(id = rep(1:10, 10))
+
+colores$isDark = sapply(colores$cols, isDark)
+
+# Angulo del texto ----
+angulos = tibble(grupo = 1:10,
+       angulo = rev(c(
+                  378,#1
+                  414,  #2
+                  90, #3
+                  126, #4
+                  162, #5
+                  198, #6
+                  234, #7
+                  270, #8
+                  306, #9
+                  342))) #10
+
+colores2 = left_join(colores, angulos)
 
 
-img_1 %>%
-  ggplot(aes(x = 1, y = n)) +
-  geom_col(color = img_1$color) +
-  coord_polar()
-
-ggplot(img_sample) +
-  geom_point(mapping = aes(x = x, y = y, color = color, size = size)) +
-  guides(size = FALSE) +
-  labs(caption = "The Gladstone Pottery Museum (Stoke-on-Trent, UK)<br><br><br><span style='font-size:12pt;'><span style='color:#9DABAC;'>#30DayChartChallenge | @CSHoggard</span></span>") +
-  scale_color_identity() +
-  scale_y_reverse() +
+# Grafica final ----
+colores2 %>%
+  ggplot(aes(x = grupo, y = id)) +
+  geom_tile(fill = colores$cols) +
+  geom_text(aes(label = cols),
+            color = ifelse(colores2$isDark,
+                           "white",
+                           "black"),
+            size = 3,
+            family = "Poppins",
+            angle = colores2$angulo) +
+  labs(title = "Distribución de colores a partir de una imagen.",
+       subtitle = "#30DayChartChallenge - Día 11 - Distribuciones + Circular") +
+  scale_x_continuous(breaks = 1:10) +
+  coord_polar() +
+  ylim(-5,11) +
   theme_void() +
-  theme(plot.caption = element_markdown(family = "Poppins", hjust = 0.5, size = 24, margin = margin(20,0,10,0)),
-        plot.margin = margin(20,20,20,20),
-        plot.background = element_rect(fill = NA, colour = 'grey40', size = 2))
+  theme(plot.subtitle = element_text(color = "black", family = "Poppins", hjust = 0.5),
+        plot.title = element_text(color = "navyblue", family = "Poppins", hjust = 0.5, face = "bold"))
 
-ggsave("abstract.png", plot = last_plot(), height = 264, width = 268, units = "mm", dpi = 600)
+
+
