@@ -49,10 +49,11 @@ bd_long = bd %>%
                             Clubes == "Club Deportivo Cruz Azul" ~ "blue"))
 
 # Filtracion ----
-bd_graf <- bd_long %>%
-  filter(Semana %in% seq.Date(from = as.Date("2020-04-26"),
-                            to = as.Date("2020-08-30"),
-                            by = 1))
+bd_graf <- bd_long
+# %>%
+#   filter(Semana %in% seq.Date(from = as.Date("2020-04-26"),
+#                             to = as.Date("2020-08-30"),
+#                             by = 1))
 
 
 p = bd_graf %>%
